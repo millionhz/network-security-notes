@@ -1,3 +1,10 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Network Security"
+theme = 'hugo-book'
+
+[markup.tableOfContents]
+  startLevel = 1
+
+[params]
+  BookTheme = 'auto'
