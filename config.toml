@@ -2,6 +2,7 @@ baseURL = "https://millionhz.github.io/"
 languageCode = "en-us"
 title = "Network Security"
 theme = 'hugo-book'
+canonifyURLs = true
 
 [markup.tableOfContents]
   startLevel = 1
