@@ -32,11 +32,11 @@ The attacker injects a malicious script into a web page by sending a specially *
 ## Defenses against XSS
 
 
-**Input validation** - *whitelisting*:
+### Input validation - *whitelisting*
 Sanitize all user input, headers, cookies, query strings and form fields against a rigorous specification of allowed characters.
 
-**Output encoding** - *blacklisting*:
+### Output encoding - *blacklisting*
 Encode all output that is based on user input, so that any special characters (script tags) are rendered harmless.
 
-**Regular security testing**:
+### Regular security testing
 Regularly test your website for XSS vulnerabilities using tools like OWASP ZAP or Burp Suite.
