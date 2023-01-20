@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://millionhz.github.io/"
 languageCode = "en-us"
 title = "Network Security"
 theme = 'hugo-book'
@@ -8,3 +8,5 @@ theme = 'hugo-book'
 
 [params]
   BookTheme = 'auto'
+  BookRepo = 'https://github.com/millionhz/network-security-notes'
+  BookEditPath = 'edit/main'
