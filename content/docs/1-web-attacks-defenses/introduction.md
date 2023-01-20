@@ -7,7 +7,6 @@ title: "Introduction"
 
 The internet uses a client-server architecture, where the browser is the client and the web server is the server. The client sends a request to the server, which then responds with the requested resource.
 
-
 # Browser Threats
 
 ## Compromise

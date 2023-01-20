@@ -1,3 +1,7 @@
+---
+bookToc: false
+---
+
 # Network Security
 | Code       | CS-473           |
 | ---------- | ---------------- |
