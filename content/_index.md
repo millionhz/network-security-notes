@@ -3,6 +3,5 @@ bookToc: false
 ---
 
 # Network Security
-| Code       | CS-473           |
-| ---------- | ---------------- |
-| Instructor | Dr. Mobeen Javed |
+
+Collection of notes and resources for LUMS-CS473 Network Security taught by [Dr. Mobin Javed](https://web.lums.edu.pk/~mobin/) during SPRING 2023.
