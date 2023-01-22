@@ -11,16 +11,13 @@ When the other users load the web page, the malicious script is executed by thei
 
 {{< youtube EoaDgUgS6QA >}}
 
-
 ## Stored XSS
 
 The attacker injects a malicious script into a web page, which is then stored on the server and served to all users who view the page.
 
-
 ## Reflected XSS
 
 The attacker injects a malicious script into a web page by sending a specially **crafted link** to a victim, which includes the script as part of the link. When the victim clicks on the link, the script is executed by their web browser.
-
 
 ## XSS Workflow
 
@@ -31,12 +28,14 @@ The attacker injects a malicious script into a web page by sending a specially *
 
 ## Defenses against XSS
 
-
 ### Input validation - *whitelisting*
+
 Sanitize all user input, headers, cookies, query strings and form fields against a rigorous specification of allowed characters.
 
 ### Output encoding - *blacklisting*
+
 Encode all output that is based on user input, so that any special characters (script tags) are rendered harmless.
 
 ### Regular security testing
+
 Regularly test your website for XSS vulnerabilities using tools like OWASP ZAP or Burp Suite.

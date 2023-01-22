@@ -21,14 +21,17 @@ A CSRF (Cross-Site Request Forgery) attack occurs when a malicious website or at
 *CSRF Protection is primarily server side.*
 
 ### Referrer Checking
+
 This involves checking the **referrer header** on a request to ensure that it originates from the same site as the one that set the cookie.
 
 ### SameSite Cookies
+
 This is a cookie attribute that tells the browser to only send the cookie with requests sent to the same site as the one that set the cookie. This prevents the browser from sending the cookie with cross-site requests.
 
 ### Anti-CSRF tokens
+
 A unique, unpredictable value is included with each request, and checked by the server to ensure that the request is legitimate.
 
 ### Two Factor Authentication
-Require authentication (e.g. OTPs) for serious requests.
 
+Require authentication (e.g. OTPs) for serious requests.

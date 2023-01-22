@@ -10,14 +10,12 @@ bookFlatSection: false
 
 `http://coolsite.com/tools/doit.php?cmd=play&vol=44`
 
-
 | Components | Description     |
 | ---------- | --------------- |
 | Protocol   | http            |
 | Host       | coolsite.com    |
 | Path       | /tools/doit.php |
 | Arguments  | cmd=play&vol=44 |
-
 
 ## HTTP Request
 
