@@ -1,7 +1,6 @@
 ---
 weight: 30
 title: "HTTP"
-bookFlatSection: false
 ---
 
 # HTTP

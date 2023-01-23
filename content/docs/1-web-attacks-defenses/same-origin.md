@@ -1,7 +1,6 @@
 ---
 weight: 20
 title: "Same-Origin Policy"
-bookFlatSection: false
 ---
 
 # Same-Origin Policy
