@@ -28,14 +28,16 @@ The attacker injects a malicious script into a web page by sending a specially *
 
 ## Defenses against XSS
 
+{{< hint info >}}
+Whitelisting approaches are preferred over blacklisting approaches.
+{{< /hint >}}
+
 ### Input validation - *whitelisting*
 
-Sanitize all user input, headers, cookies, query strings and form fields against a rigorous specification of allowed characters.
+**Sanitize** all user input, headers, cookies, query strings and form fields against a rigorous specification of allowed characters.
+
+This can include checks to ensure that special characters, such as `<` and `>`, are properly encoded or removed to prevent them from being interpreted as HTML or JavaScript code. I
 
 ### Output encoding - *blacklisting*
 
-Encode all output that is based on user input, so that any special characters (script tags) are rendered harmless.
-
-### Regular security testing
-
-Regularly test your website for XSS vulnerabilities using tools like OWASP ZAP or Burp Suite.
+**Encode** all output that is based on user input, so that any special characters (script tags) are rendered harmless.
