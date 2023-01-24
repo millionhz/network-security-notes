@@ -10,4 +10,4 @@ To build the notes, you need to have [Hugo](https://gohugo.io/) installed. Then,
 hugo server
 ```
 
-This will start a local web server on port 1313. You can access the notes at <http://localhost:1313>.
+This will start a local web server on port 1313. You can access the notes at <http://localhost:1313/network-security-notes/>.
