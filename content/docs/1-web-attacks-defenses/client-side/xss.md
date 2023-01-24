@@ -9,15 +9,21 @@ An XSS (Cross-Site Scripting) attack is a type of injection attack in which an a
 
 When the other users load the web page, the malicious script is executed by their web browser, allowing the attacker's code to run and steal sensitive information such as cookies, session tokens, and other personal data.
 
+[Cross-Site Scripting - portswigger](https://portswigger.net/web-security/cross-site-scripting)
+
 {{< youtube EoaDgUgS6QA >}}
 
 ## Stored XSS
 
 The attacker injects a malicious script into a web page, which is then stored on the server and served to all users who view the page.
 
+[Stored XSS - hacksplaining](https://www.hacksplaining.com/exercises/xss-stored)
+
 ## Reflected XSS
 
-The attacker injects a malicious script into a web page by sending a specially **crafted link** to a victim, which includes the script as part of the link. When the victim clicks on the link, the script is executed by their web browser.
+The attacker injects a malicious script into a web page by sending a specially **crafted link** to a victim, which includes the script as part of the link. When the victim clicks on the link, the script is inserted into the victim's webpage and is then executed by their web browser.
+
+[Reflected XSS - hacksplaining](https://www.hacksplaining.com/exercises/xss-reflected)
 
 ## XSS Workflow
 
