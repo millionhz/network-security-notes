@@ -9,7 +9,7 @@ An XSS (Cross-Site Scripting) attack is a type of injection attack in which an a
 
 When the other users load the web page, the malicious script is executed by their web browser, allowing the attacker's code to run and steal sensitive information such as cookies, session tokens, and other personal data.
 
-[Cross-Site Scripting - portswigger](https://portswigger.net/web-security/cross-site-scripting)
+[Cross-Site Scripting Strategies - portswigger](https://portswigger.net/web-security/cross-site-scripting/contexts)
 
 {{< youtube EoaDgUgS6QA >}}
 
@@ -47,3 +47,9 @@ This can include checks to ensure that special characters, such as `<` and `>`, 
 ### Output encoding - *blacklisting*
 
 **Encode** all output that is based on user input, so that any special characters (script tags) are rendered harmless.
+
+## Exercises and Labs
+
+- [xss-game](https://xss-game.appspot.com/)
+
+- [alert(1) - alf.nu](https://alf.nu/alert1?world=alert&level=alert0)
