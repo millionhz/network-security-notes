@@ -7,7 +7,7 @@ title: "Cross-Site Request Forgery (CSRF)"
 
 A CSRF (Cross-Site Request Forgery) attack occurs when a malicious website or attacker tricks a victim's browser into making a request to a **different website** that the victim is already **authenticated to**.
 
-[CSRF - hacksplaining](https://www.hacksplaining.com/exercises/csrf)
+- [CSRF - hacksplaining](https://www.hacksplaining.com/exercises/csrf)
 
 {{< youtube eWEgUcHPle0 >}}
 

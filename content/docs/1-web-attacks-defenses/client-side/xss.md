@@ -9,21 +9,21 @@ An XSS (Cross-Site Scripting) attack is a type of injection attack in which an a
 
 When the other users load the web page, the malicious script is executed by their web browser, allowing the attacker's code to run and steal sensitive information such as cookies, session tokens, and other personal data.
 
-[Cross-Site Scripting Strategies - portswigger](https://portswigger.net/web-security/cross-site-scripting/contexts)
-
 {{< youtube EoaDgUgS6QA >}}
+
+- [Cross-Site Scripting - portswigger](https://portswigger.net/web-security/cross-site-scripting/contexts)
 
 ## Stored XSS
 
 The attacker injects a malicious script into a web page, which is then stored on the server and served to all users who view the page.
 
-[Stored XSS - hacksplaining](https://www.hacksplaining.com/exercises/xss-stored)
+- [Stored XSS - hacksplaining](https://www.hacksplaining.com/exercises/xss-stored)
 
 ## Reflected XSS
 
 The attacker injects a malicious script into a web page by sending a specially **crafted link** to a victim, which includes the script as part of the link. When the victim clicks on the link, the script is inserted into the victim's webpage and is then executed by their web browser.
 
-[Reflected XSS - hacksplaining](https://www.hacksplaining.com/exercises/xss-reflected)
+- [Reflected XSS - hacksplaining](https://www.hacksplaining.com/exercises/xss-reflected)
 
 ## XSS Workflow
 
@@ -52,4 +52,4 @@ This can include checks to ensure that special characters, such as `<` and `>`, 
 
 - [xss-game](https://xss-game.appspot.com/)
 
-- [alert(1) - alf.nu](https://alf.nu/alert1?world=alert&level=alert0)
+- [alert(1) - alf.nu](https://alf.nu/alert1?world=alert&level=alert0) ([Solutions](https://www.pwntester.com/blog/2014/01/06/escape-alf-nu-xss-challenges-write-ups-part-148/))
