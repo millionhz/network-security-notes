@@ -11,6 +11,6 @@ title: "Web Attacks & Defenses"
 
 - [hacksplaining](https://www.hacksplaining.com/)
 
-- [PwnFunction - youtube](https://www.youtube.com/playlist?list=PLI_rLWXMqpSl_TqX9bbisW-d7tDqcVvOJ)
+- [portswigger](https://portswigger.net/web-security)
 
-- [HTML Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [PwnFunction - youtube](https://www.youtube.com/playlist?list=PLI_rLWXMqpSl_TqX9bbisW-d7tDqcVvOJ)

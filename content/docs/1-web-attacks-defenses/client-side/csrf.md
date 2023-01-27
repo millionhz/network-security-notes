@@ -9,6 +9,8 @@ A CSRF (Cross-Site Request Forgery) attack occurs when a malicious website or at
 
 - [CSRF - hacksplaining](https://www.hacksplaining.com/exercises/csrf)
 
+- [CSRF - portswigger](https://portswigger.net/web-security/csrf)
+
 {{< youtube eWEgUcHPle0 >}}
 
 ## CSRF Workflow

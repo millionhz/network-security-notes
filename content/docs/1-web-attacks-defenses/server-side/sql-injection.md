@@ -15,7 +15,7 @@ SQL injection is a code injection technique that exploits a security vulnerabili
 
 - [SQL Injection - hacksplaining](https://www.hacksplaining.com/exercises/sql-injection)
 
-- [SQL Injection - portswinger](https://portswigger.net/web-security/sql-injection) (with strategies)
+- [SQL Injection - portswinger](https://portswigger.net/web-security/sql-injection)
 
 ## Defenses against SQL Injection
 
