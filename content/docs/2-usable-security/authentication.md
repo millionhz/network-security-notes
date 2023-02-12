@@ -29,11 +29,19 @@ title: "Authentication"
    - Voice recognition
    - Handwriting recognition
 
-# Passwords
+## Passwords
 
 Passwords are a knowledge based authentication mechanism.
 
-## Weaknesses
+### Strengths
+
+- cheap to implement
+- easy to renew and to revoke
+- easy to understand & accessible
+- users have been trained to use them
+- hardware independent
+
+### Weaknesses
 
 - strong passwords are hard to remember
 - dictionary attacks
@@ -43,23 +51,9 @@ Passwords are a knowledge based authentication mechanism.
 - password reuse/management
 - fallback security questions
 
-## Strengths
+## Biometrics
 
-- cheap to implement
-- easy to renew and to revoke
-- easy to understand & accessible
-- users have been trained to use them
-- hardware independent
-
-# Biometrics
-
-## Weaknesses
-
-- convenient
-- effortless
-- fast
-
-## Strengths
+### Strengths
 
 - not as secure as marketed
 - non-revocable
@@ -67,11 +61,22 @@ Passwords are a knowledge based authentication mechanism.
 - requires fallback authentication
 - accessibility problems (e.g. weak fingerprints due to intense manual labor)
 
-# Behavioral Biometrics
+### Weaknesses
+
+- convenient
+- effortless
+- fast
+
+## Behavioral Biometrics
 
 Behavioral Biometrics are behavior based authentication mechanisms.
 
-## Weaknesses
+### Strengths
+
+- implicit
+- enables continuous authentication
+
+### Weaknesses
 
 - very weak measure
 - many false positives/negatives
@@ -79,12 +84,9 @@ Behavioral Biometrics are behavior based authentication mechanisms.
 - requires training
 - requires data collection over a period of time for classification
 
-## Strengths
+# Other Authentication Methods
 
-- implicit
-- enables continuous authentication
-
-# Two Factor Authentication
+## Two Factor Authentication
 
 Two factor authentication (2FA) is a method of confirming a user’s claimed identity by using two different components.
 
@@ -94,7 +96,7 @@ Its a combination of what users know and what they have.
 2FA is not very useable.
 {{< /hint >}}
 
-# Password Managers
+## Password Managers
 
 Password managers are a way to store and manage passwords.
 
@@ -108,7 +110,7 @@ They solve the problem of:
 Password managers introduce a single point of failure.
 {{< /hint >}}
 
-# Fallback Authentication
+## Fallback Authentication
 
 Fallback authentication is a method of authentication that is used when the primary authentication method fails. These are often in form of security questions and PIN codes.
 
