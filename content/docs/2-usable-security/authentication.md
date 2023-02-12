@@ -119,3 +119,48 @@ Studies have shown that users often choose even more weaker passwords when they 
 {{< hint info >}}
 Passwords can't be replaced because all alternative methods require a fallback authentication mechanism.
 {{< /hint >}}
+
+## Hardware Keys
+
+Hardware keys are a way to authenticate a user by using a physical device.
+
+Hardware keys are often in form of UBS sticks, smart cards or QR codes. The user needs to be in physical possession of the device to authenticate. Furthermore authenticity checks are needed to ensure that tokens and certificates are not replaced, modified, or counterfeit.
+
+{{< hint danger >}}
+Hardware keys are susceptible to Supply Chain Attacks.
+{{< /hint >}}
+
+# Evaluating Authentication Schemes
+
+## Usability
+
+- Memorywise-Effortless
+- Scalable-for-Users
+- Nothing-to-Carry
+- Physically-Effortless
+- Easy-to-Learn
+- Efficient-to-Use
+- Infrequent-Errors
+- Easy-Recovery-from-Loss
+
+## Dependability
+
+- Accessible
+- Negligible-Cost-per-User
+- Server-Compatible
+- Mature
+- Non-Proprietary
+
+## Security
+
+- Resilient-to-Physical-Observation
+- Resilient-to-Targeted-Impersonation
+- Resilient-to-Throttled-Guessing
+- Resilient-to-Unthrottled-Guessing
+- Resilient-to-Internal-Observation
+- Resilient-to-Leaks-from-Other-Verifiers
+- Resilient-to-Phishing
+- Resilient-toTheft
+- No-Trusted-Third-Party
+- Requiring-Explicit-Consent
+- Unlinkable
