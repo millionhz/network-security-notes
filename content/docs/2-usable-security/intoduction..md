@@ -5,7 +5,7 @@ title: "Introduction"
 
 # What is usable security?
 
-Useable security os about making security easy to use for everyone.
+Useable security is about making security easy to use for everyone.
 
 ## Why is useable security difficult?
 
