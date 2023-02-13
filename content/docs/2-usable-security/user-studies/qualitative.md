@@ -23,7 +23,7 @@ Interviews and focus groups allow for in-depth exploration of attitudes, beliefs
 
 Participatory design is a method for integrating prospective users into the design process. This approach aims to involve users in the design process by actively engaging them in co-design activities, such as brainstorming sessions or prototyping exercises.
 
-*Contextual design is a similar to observation studies.*.
+*Contextual design is a similar to observation studies.*
 
 ### Observations
 

@@ -55,17 +55,17 @@ Passwords are a knowledge based authentication mechanism.
 
 ### Strengths
 
+- convenient
+- effortless
+- fast
+
+### Weaknesses
+
 - not as secure as marketed
 - non-revocable
 - doesn’t work 100% of the time
 - requires fallback authentication
 - accessibility problems (e.g. weak fingerprints due to intense manual labor)
-
-### Weaknesses
-
-- convenient
-- effortless
-- fast
 
 ## Behavioral Biometrics
 
