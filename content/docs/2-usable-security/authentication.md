@@ -130,7 +130,7 @@ Hardware keys are often in form of UBS sticks, smart cards or QR codes. The user
 Hardware keys are susceptible to Supply Chain Attacks.
 {{< /hint >}}
 
-# Evaluating Authentication Schemes
+<!-- # Evaluating Authentication Schemes
 
 ## Usability
 
@@ -163,4 +163,4 @@ Hardware keys are susceptible to Supply Chain Attacks.
 - Resilient-toTheft
 - No-Trusted-Third-Party
 - Requiring-Explicit-Consent
-- Unlinkable
+- Unlinkable -->
