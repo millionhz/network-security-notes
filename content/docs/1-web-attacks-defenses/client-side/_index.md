@@ -1,4 +1,4 @@
 ---
-weight: 40
+weight: 30
 title: "Client-Side Attacks"
 ---
