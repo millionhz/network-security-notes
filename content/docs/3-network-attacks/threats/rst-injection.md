@@ -1,13 +1,13 @@
 ---
 weight: 20
-title: "Disruption"
+title: "RST Injection"
 ---
 
-# Disruption
+# RST Injection
 
-Disruption attacks are used to disrupt the normal operation of a TCP connection.
+RST Injection is a Disruption attacks which can be used to disrupt the normal operation of a TCP connection between two hosts.
 
-## RST Injection
+## RST Injection Workflow
 
 Normally, a TCP connection is closed by each side sending a **FIN packet** which is reliably delivered with acks.
 

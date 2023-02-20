@@ -1,15 +1,7 @@
 ---
 weight: 10
-title: "Eavesdropping"
+title: "WPA-2 Eavesdropping"
 ---
-
-# Eavesdropping
-
-Eavesdropping, also knows as *sniffing*,  refers to the unauthorized interception and monitoring of network traffic.
-
-Any system with an NIC (Network Interface Card) can capture communication over a subnet using tools like `tcpdump` or [Wireshark](https://www.wireshark.org/).
-
-Alternatively, logged traffic can be exported from routers and switches or from a network tap.
 
 # WPA-2 Eavesdropping
 

@@ -3,16 +3,6 @@ weight: 20
 title: "DHCP Spoofing"
 ---
 
-# Spoofing
-
-Spoofing in network security is the act of impersonating another user, device, or network in order to gain unauthorized access, steal information, or launch an attack.
-
-This is especially powerful when combined with eavesdropping. The attacker can retrieve the exact state of the victim's communication and craft their spoofed traffic to match it.
-
-{{<  hint info >}}
-Spoofing without eavesdropping is called *blind-spoofing*
-{{< /hint >}}
-
 # DHCP
 
 A new host does not have an IP Address nor do they who to ping to get an IP address. So the host sends a broadcast message to the network asking for an IP address.
