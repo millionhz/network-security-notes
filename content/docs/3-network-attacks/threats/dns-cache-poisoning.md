@@ -1,5 +1,5 @@
 ---
-weight: 40
+weight: 50
 title: "DNS Cache Poisoning"
 ---
 
@@ -37,7 +37,7 @@ DNS packets are composed of several fields, including the header and the data se
 
 # DNS Cache Poisoning
 
-DNS cache poisoning is a type of cyber attack in which an attacker corrupts the DNS cache of a targeted computer or network, replacing legitimate domain name information with fraudulent or malicious data.
+DNS cache poisoning is a type of **DNS Spoofing** attack in which an attacker corrupts the DNS cache of a targeted computer or network, replacing legitimate domain name information with fraudulent or malicious data.
 
 {{< youtube 7MT1F0O3_Yw >}}
 
