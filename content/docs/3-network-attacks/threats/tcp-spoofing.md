@@ -9,7 +9,7 @@ TCP spoofing is a type of cyber attack in which an attacker impersonates another
 
 ## Blind TCP Spoofing
 
-Is it possible for an attacker to inject into a TCP connection even if they can’t see our traffic if they know the port and sequences numbers.
+A TCP spoof attack can be carried our with just the valid **port** and **sequence number** without needing the complete TCP traffic.
 
 ## TCP Spoofing Workflow
 
