@@ -22,6 +22,11 @@ title: "Network Attacks"
 - [TCP Spoofing/Session Hijacking]({{< relref "/tcp-spoofing.md" >}})
 - [SYN Flooding]({{< relref "/syn-flooding.md" >}})
 
-## Other Attacks
+## DNS Attacks
 
 - [DNS Cache Poisoning]({{< relref "/dns-cache-poisoning.md" >}})
+
+# Denial of Service Attacks
+
+- [Denial of Service]({{< relref "/dos.md" >}})
+- [SYN Flooding]({{< relref "/syn-flooding.md" >}})
