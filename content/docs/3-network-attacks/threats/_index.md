@@ -1,6 +1,6 @@
 ---
 weight: 20
-title: "Threats"
+title: "Network Attacks"
 ---
 
 # Network Attacks
