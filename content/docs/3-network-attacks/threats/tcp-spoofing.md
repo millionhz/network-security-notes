@@ -5,7 +5,7 @@ title: "TCP Spoofing"
 
 # TCP Spoofing
 
-TCP spoofing is a type of cyber attack in which an attacker impersonates another computer or device on a network in order to intercept and **manipulate** the data being sent between the two devices.
+TCP spoofing, also knows as Session Hijacking,  is a type of cyber attack in which an attacker impersonates another computer or device on a network in order to intercept and **manipulate** the data being sent between the two devices.
 
 ## Blind TCP Spoofing
 

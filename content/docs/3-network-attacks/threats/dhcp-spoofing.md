@@ -9,9 +9,11 @@ A new host does not have an IP Address nor do they who to ping to get an IP addr
 
 The DHCP server receives this message and responds with a DHCP offer which contains:
 
-- IP address
-- DNS server - used to map hostnames to IP Addresses
-- Gateway address - IP address of the router that client uses as the first hop for all its internet traffic
+| DHCP Offer | Description |
+| --- | --- |
+| IP Address |  IP Address for the machine |
+| DNS Address | Address of server used to map hostnames to IPs |
+| Gateway Address | IP address of the router which is used as the first hop  |
 
 ## DHCP Spoofing
 
@@ -27,4 +29,4 @@ Redirect any of the host's DNS requests to a malicious DNS server.
 
 ### Fake Gateway
 
-Intercept of the host's off-subnet traffic and rely contents back and forth between the host and remote server (*invisible* Man In The Middle).
+Intercept the host's off-subnet traffic and rely content back and forth between the host and remote server (*invisible* Man In The Middle).
