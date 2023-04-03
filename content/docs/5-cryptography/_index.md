@@ -2,3 +2,17 @@
 weight: 50
 title: "Cryptography"
 ---
+
+# Cryptography
+
+- Confidentiality
+- Integrity
+- Authentication
+
+# Kerckhoffs's Principle
+
+Cryptosystems should remain secure even when the attacker knows all internal details of the system. The key should be the only thing that must be kept secret, and the system should be designed to make it easy to change keys that are leaked (or suspected to be leaked).
+
+# Lectures
+
+- [CS473 Lectures - Mobin Javed](https://www.youtube.com/playlist?list=PLzdEYvQEExDrq7SkPd2EzySF0AnLeJbvf)
