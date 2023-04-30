@@ -3,17 +3,52 @@ weight: 40
 title: "AES"
 ---
 
-# Advanced Encryption Standard (AES)
+# Advanced Encryption Standard (AES) - SP Network Cipher
 
 {{< youtube UF4Bdx0QQxI >}}
 
 AES is a symmetric block cipher. It uses a 128-bit (16 bytes) block size and a 128, 192, or 256-bit key size to encrypt the block of plain text.
+
+AES utilizes both Substitution and Transposition.
 
 | Key Size | Rounds |
 |----------|--------|
 | 128-bit  | 10     |
 | 192-bit  | 12     |
 | 256-bit  | 14     |
+
+## Encryption
+
+### Key Expansion
+
+Generate keys for each round from the original key. Number of keys generated is equal to the number of rounds + 1.
+
+### Initial Round
+
+Add the first round key to the plain text to create the cipher text.
+
+### Rounds
+
+Repeat the following steps for the number of rounds - 1.
+
+1. Substitute Bytes: Substitute each byte of the state matrix with a different byte from the S-Box. S-Box is predefined and is used to substitute the bytes.
+
+2. Shift Rows: Shift the rows of the state matrix by different offsets. Row 0 is shifted by 0 bytes, Row 1 is shifted by 1 byte, Row 2 is shifted by 2 bytes and so on.
+
+3. Mix Columns: Mix the columns of the state matrix by multiplying the state with a fixed matrix.
+
+4. Add Round Key: Combines the state matrix with the current round key through bitwise XOR operation.
+
+## Key Space
+
+The key space depends on the size of the key.
+
+{{< katex display >}} Key \ Space = 2^{key \ size} {{< /katex >}}
+
+## Attacks
+
+- Exhaustive Key Search
+- Side Channel Attack
 
 ## Also See
 
