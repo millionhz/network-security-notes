@@ -62,6 +62,10 @@ The key space depends on the size of the key.
 
 Each Block is encrypted independently.
 
+{{< katex display >}} C_i = E_k(B_i) {{< /katex >}}
+
+{{< katex display >}} B_i = D_k(C_i) {{< /katex >}}
+
 ### Pros
 
 - Simplicity
@@ -92,11 +96,11 @@ Use previous cipher to calculate the cipher for the current block. When encrypti
 
 ## Cipher Feedback (CFB) Mode
 
-Encrypt the last block and XOR it with the current block.
+Encrypt the previous block and XOR it with the current block.
 
 {{< katex display >}} C_i = E_k(C_{i-1}) \oplus B_i {{< /katex >}}
 
-{{< katex display >}} B_i = D_k(C_{i-1}) \oplus C_i {{< /katex >}}
+{{< katex display >}} B_i = E_k(C_{i-1}) \oplus C_i {{< /katex >}}
 
 ### Pros
 
@@ -104,7 +108,9 @@ Encrypt the last block and XOR it with the current block.
 
 ## Output Feedback (OFB) Mode
 
-OFB follows the principle of one-time pad by using the provided key and the initialization vector (IV) to generate a stream of bits(expanded). The stream is then XORed with the plaintext to produce the ciphertext.
+OFB follows the principle of one-time pad by using the provided key and the initialization vector (IV) to generate a stream of bits(expanded).
+
+The stream is then XORed with the plaintext to produce the ciphertext.
 
 {{< katex display >}} V_0 : Initialization \ Vector {{< /katex >}}
 
@@ -120,6 +126,8 @@ OFB follows the principle of one-time pad by using the provided key and the init
 - Tolerate losses - Each block is encrypted independently.
 
 ## Counter (CTR) Mode
+
+Builds upon the idea of **OFB**.
 
 Use a **random seed** and counter to generate a stream of bits(expanded).
 
@@ -137,3 +145,13 @@ Use a **random seed** and counter to generate a stream of bits(expanded).
 
 - Completely parallelizable
 - Tolerate Losses
+
+## Summary
+
+| Mode                 | Pros                                         | Cons                                                                       |
+| --------------------| -------------------------------------------- | -------------------------------------------------------------------------- |
+| Electronic Codebook (ECB) | Simple, tolerant to losses                  | Same plaintext encrypted to same ciphertext, revealing patterns in plaintext |
+| Cipher Block Chaining (CBC) | Fixes ECB Penguin, tolerant to losses    | Encryption happens sequentially, not parallelizable                         |
+| Cipher Feedback (CFB)    | Faster, tolerant to losses                       | -                                                                       |
+| Output Feedback (OFB) | Parallelizable, tolerant to losses               | -                                                                       |
+| Counter (CTR)        | Completely parallelizable, tolerant to losses | -                                                                       |
