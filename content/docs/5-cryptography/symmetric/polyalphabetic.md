@@ -23,7 +23,7 @@ This problem can be mitigated by using longer digrams.
 
 # Vigenere Cipher
 
-Use a key to encrypt the whole text.
+Use a key of fixed size to encrypt the whole text. If the key is shorted than the plain text, repeat the key.
 
 {{< katex display >}} C_i = (p_i + k_{i \ mod \ m}) \ mod \ 26 {{< /katex >}}
 
@@ -39,9 +39,11 @@ Vigenere Cipher solves the problem of long keys by using a key that is of a fixe
 
 Repeating plain text encrypted with the repeating key of the Vigener Cipher will result in the same cipher text. An attacker can use this info to extract information about the key.
 
-This is due to the fact that the key length is shorted than the cipher length.
+This is due to the fact that the key length is shorter than the cipher length.
 
 # Vernam / One-time Pad ⭐
+
+Key length is equal to the message length.
 
 XOR each bit of the plain text with each bit of the key.
 
@@ -62,9 +64,11 @@ XOR each bit of the plain text with each bit of the key.
 
 **Abiding by these 2 rules makes the cipher unbreakable.**
 
-A certain cipher text with different keys can map to different plain texts and as the keys are chosen at random, the attacker will not be able to figure out the key that outputs the correct plain text.
+A certain cipher text with different keys can map to different plain texts.
 
-## Problems
+The attacker will not be able to figure out the key that outputs the correct plain text.
+
+## Problems - Impractical
 
 - Key Generation
 - Key Distribution
@@ -73,4 +77,14 @@ Both of these problems stem from the fact that the key length is equal to the me
 
 # Hill Cipher
 
-{{< youtube EQ8UomTrAQ >}}
+The key of hill cipher is a square invertible matrix.
+
+For encryption, the plain text is split into blocks (vectors) of size equal to the size of the key matrix. Each block is multiplied with the key matrix to get the cipher text.
+
+{{< katex display >}} C = PK \ mod \ 26 {{< /katex >}}
+
+For decryption, the cipher text is split into blocks (vectors) of size equal to the size of the key matrix. Each block is multiplied with the inverse of the key matrix to get the plain text.
+
+{{< katex display >}} P = PK^{-1} \ mod \ 26 {{< /katex >}}
+
+{{< youtube 6T46sgty4Mk >}}
