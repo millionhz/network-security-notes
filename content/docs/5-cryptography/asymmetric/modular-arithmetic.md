@@ -1,5 +1,5 @@
 ---
-weight: 25
+weight: 5
 title: "Modular Arithmetic"
 ---
 

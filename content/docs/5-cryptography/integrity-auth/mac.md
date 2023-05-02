@@ -1,6 +1,6 @@
 ---
-weight: 50
-title: "MAC"
+weight: 10
+title: "MACs"
 ---
 
 
@@ -62,3 +62,5 @@ CBC-MAC with only one key can be broken by a chosen message attack.
 An attacker who knows the message and its authentication tag can manipulate the last block of the message to produce a new message with the same tag.
 
 For example, let's say that an attacker intercepts the message "Hello" and its authentication tag "ABCD" from a system that uses CBC-MAC with a single key. The attacker can then create a new message "Goodbye" by constructing the following blocks: "Goo", "dby", and "eABCD". *The last block is constructed by XORing the original authentication tag with the final block* of the "Goodbye" message. When this new message is authenticated using CBC-MAC, the system will accept it as valid because it has the same authentication tag as the original message.
+
+This vulnerability exists because of the properties of the XOR operation.
