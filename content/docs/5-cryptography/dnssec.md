@@ -33,3 +33,5 @@ All keys as well as signed results are cacheable, which means that once a resolv
    - DNSSEC requires the management of keys. This is a complex task and requires a lot of resources.
 
 4. Can not sign domains that do not exist.
+
+5. DNSSEC does not provide confidentiality.

@@ -30,7 +30,7 @@ This involves checking the **referrer header** on a request to ensure that it or
 
 ### SameSite Cookies
 
-This is a cookie attribute that tells the browser to only send the cookie with requests sent to the same site as the one that set the cookie. This prevents the browser from sending the cookie with cross-site requests.
+This is a cookie attribute that tells the browser to only send the cookie if the requesting site is the same as the one that set the cookie. This prevents the browser from sending the cookie with cross-site requests.
 
 ### Anti-CSRF tokens
 

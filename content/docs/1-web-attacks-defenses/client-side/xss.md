@@ -42,7 +42,7 @@ Whitelisting approaches are preferred over blacklisting approaches.
 
 **Sanitize** all user input, headers, cookies, query strings and form fields against a rigorous specification of allowed characters.
 
-This can include checks to ensure that special characters, such as `<` and `>`, are properly encoded or removed to prevent them from being interpreted as HTML or JavaScript code. I
+This can include checks to ensure that special characters, such as `<` and `>`, are properly encoded or removed to prevent them from being interpreted as HTML or JavaScript code.
 
 ### Output encoding - *blacklisting*
 
