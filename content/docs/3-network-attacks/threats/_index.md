@@ -25,8 +25,3 @@ title: "Network Attacks"
 ## DNS Attacks
 
 - [DNS Cache Poisoning]({{< relref "/dns-cache-poisoning.md" >}})
-
-# Denial of Service Attacks
-
-- [Denial of Service]({{< relref "/dos.md" >}})
-- [SYN Flooding]({{< relref "/syn-flooding.md" >}})

@@ -48,4 +48,22 @@ Note that for this to work we need to know the ip of the attacker.
 
 ## DDoS Attacks
 
+DDoS stands for Distributed Denial of Service. It is a type of cyberattack in which a large number of computers or devices (often called a botnet) are used to flood a target website or online service with an overwhelming amount of traffic or requests. The goal of a DDoS attack is to disrupt or completely disable the targeted website or service, making it inaccessible to legitimate users.
+
 ## Defense Mechanisms
+
+### DDoS mitigation services
+
+These are specialized services that can detect and filter out malicious traffic before it reaches the target website or service. They use a variety of techniques, such as rate limiting, traffic shaping, and IP blocking, to identify and block suspicious traffic.
+
+### Cloud-based protection
+
+Cloud-based DDoS protection services can help to provide scalable protection against DDoS attacks by using a network of servers to absorb and filter incoming traffic.
+
+### Load balancers
+
+Load balancers can distribute incoming traffic across multiple servers or data centers, which can help to prevent any one server from becoming overwhelmed.
+
+### Content Delivery Network (CDN)
+
+CDNs can help to distribute the load of incoming traffic across multiple servers and data centers, which can make it more difficult for attackers to overwhelm any one server. This can also help to improve the performance and availability of the website or service.
