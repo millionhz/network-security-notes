@@ -1,5 +1,5 @@
 ---
-weight: 60
+weight: 25
 title: "Denial of Service"
 ---
 
@@ -31,6 +31,10 @@ This can be avoided by:
 
 A Network Denial of Service Attacks is when an attacker floods the target network or system with a large volume of traffic or requests, overwhelming its capacity to process and respond to these requests.
 
+## DNS Amplification
+
+{{< youtube xTKjHWkDwP0 >}}
+
 ## Filtering - Defense Mechanism
 
 A network filter can be used to discard any packets arriving from a malicious ip.
@@ -42,6 +46,6 @@ Note that for this to work we need to know the ip of the attacker.
 - **IP Spoofing**: Spoof the source IP address for the sent packets to a random address.
 - **DDoS**: Use many hosts to send traffic to the target.
 
-## DNS Amplification
+## DDoS Attacks
 
-{{< youtube xTKjHWkDwP0 >}}
+## Defense Mechanisms
