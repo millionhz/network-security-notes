@@ -36,7 +36,7 @@ In order to avoid the risk of dropping connections when the backlog has been fil
 
 If the connection is a legitimate request, and a final ACK packet is sent from the client machine back to the server containing the SYN cookie, the server will then reconstruct (with some limitations) the SYN backlog queue entry.
 
-However, there is not easy way to add the syn-cookie to the ack and so the state information needs to be encoded as a Sequence Number.
+However, there is not easy way to add the syn-cookie to the ack and so the SYN-Cookie needs to be encoded as a Sequence Number.
 
 ### Recycling the Oldest Half-Open TCP connection
 
