@@ -23,7 +23,7 @@ This problem can be mitigated by using longer digrams.
 
 # Vigenere Cipher
 
-Use a key of fixed size to encrypt the whole text. If the key is shorted than the plain text, repeat the key.
+Use a key of fixed size to encrypt the whole text. If the key is shorter than the plain text, repeat the key.
 
 {{< katex display >}} C_i = (p_i + k_{i \ mod \ m}) \ mod \ 26 {{< /katex >}}
 
