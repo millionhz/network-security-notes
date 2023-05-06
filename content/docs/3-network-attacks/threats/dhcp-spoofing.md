@@ -21,6 +21,12 @@ An attacker on the same subnet can listen for new hosts and race the actual the 
 
 If the attacker wins, it can send a malicious DHCP offer to the new host.
 
+{{< hint danger >}}
+
+WPA-2 Enterprise networks are still susceptible to DHCP spoofing attacks.
+
+{{< /hint >}}
+
 ## DHCP Threats
 
 ### Fake DNS

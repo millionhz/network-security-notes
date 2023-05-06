@@ -7,9 +7,13 @@ title: "TCP Spoofing"
 
 TCP spoofing, also knows as Session Hijacking,  is a type of cyber attack in which an attacker impersonates another computer or device on a network in order to intercept and **manipulate** the data being sent between the two devices.
 
+On-Path attackers can see the traffic between two hosts and can spoof the traffic to impersonate one of the hosts.
+
+Off-Path attackers (blind spoofing) may need to infer headers and brute force sequence numbers to spoof traffic.
+
 ## Blind TCP Spoofing
 
-A TCP spoof attack can be carried our with just the valid **port** and **sequence number** without needing the complete TCP traffic.
+A TCP spoof attack can be carried out with just the valid **port** and **sequence number** without needing the complete TCP traffic.
 
 ## TCP Spoofing Workflow
 

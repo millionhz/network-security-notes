@@ -17,6 +17,6 @@ If the attacker has the network password, they can generate the key and intercep
 
 *Enterprise* WPA-2 networks prevent eavesdropping attacks by using an Authentication server to authenticate users.
 
-Once the client device is authenticated, it receives a unique encryption key that is used to encrypt all data transmitted between the client and the network.
+On connection the device establishes a secure connection to the Authentication Server over TLS. Once the client device is authenticated, it receives a unique encryption key that is used to encrypt all data transmitted between the client and the network.
 
 This key is different for each client, and it is periodically changed to ensure the security of the network.

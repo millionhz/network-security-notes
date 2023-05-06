@@ -46,11 +46,13 @@ which stands for “Address”), and an associated value (IP address).
 
 3. `AUTHORITY SECTION`: Contains information about the server responsible for the answer. The client will cache this and if the "Answer" had been empty, then the resolver’s next step would be to send the original query to one of these name servers.
 
-4. `ADDITIONAL SECTION`: Provides extra information to save us from making separate lookups for it. For example, the DNS server may respond with the IP addresses for other servers that are associated with the domain. This additional information can be used by the client to optimize its future DNS queries or to establish connections to other services provided by the domain.
+4. `ADDITIONAL SECTION`: Additional sections provides IP addresses of the authoritative nameservers for the requested domain. This information can be useful for subsequent DNS queries, as the resolver can cache the IP addresses of the authoritative nameservers, reducing the time it takes to resolve future queries for the same domain.
 
 # DNS Cache Poisoning
 
-DNS cache poisoning is a type of **DNS Spoofing** attack in which an attacker corrupts the DNS cache of a targeted computer or network, replacing legitimate domain name information with fraudulent or malicious data.
+DNS cache poisoning, also known as DNS spoofing, is a type of cyber attack that manipulates the information stored in a DNS resolver's cache in order to redirect users to malicious websites or intercept their sensitive information.
+
+Here's a simple example: Imagine you type in a website address (e.g. www.example.com) in your browser, and your computer sends a DNS query to a resolver to find the IP address associated with that domain name. If a cyber attacker intercepts that query and sends a response with a falsified IP address, the resolver will cache that fake information. As a result, the next time you try to visit that website, your computer will be directed to the fake IP address instead of the actual website, potentially leading you to a malicious website instead.
 
 {{< youtube 7MT1F0O3_Yw >}}
 
