@@ -7,7 +7,7 @@ title: "DNSSEC"
 
 DNSSEC (Domain Name System Security Extensions) is a standardized set of security extensions for the Domain Name System (DNS).
 
-## Procedu re
+## Procedure
 
 When a resolver works its way from the DNS root down to the final name server for a name, at each level, it receives a signed statement regarding the key(s) used by the next level. This means that DNSSEC builds up a chain of trusted keys, where each level is authenticated by the level above it.
 
