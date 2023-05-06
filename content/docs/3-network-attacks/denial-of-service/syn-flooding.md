@@ -43,3 +43,7 @@ However, there is not easy way to add the syn-cookie to the ack and so the SYN-C
 Once the backlog of half-open connections reaches a certain threshold, the oldest half-open connection is closed and the new connection is accepted.
 
 This strategy requires that the legitimate connections can be fully established in less time than the backlog can be filled with malicious SYN packets. This particular defense fails when the attack volume is increased, or if the backlog size is too small to be practical.
+
+### Large Memory
+
+The server can be configured with a memory large enough to accommodate all the new connections.
