@@ -43,7 +43,7 @@ Messages are also numbered to prevent replay attacks.
 
 3. The browser generates a random number b and computes g^(ab) mod p using the server's public parameters. This result is called the "shared secret" or PS.
 
-4. The browser sends PS to the server.
+4. The browser sends g^b mod p to the server.
 
 5. The server also computes PS using its own random number a and the browser's public parameters.
 

@@ -42,7 +42,7 @@ The validation process for these certificates involves the certificate authority
 
 ### Organization Validated Certificates (OV)
 
-hese certificates are more rigorous than DV certificates and require additional validation.
+These certificates are more rigorous than DV certificates and require additional validation.
 
 In addition to verifying domain ownership, the certificate authority also verifies the identity of the organization that owns the domain.
 
