@@ -5,7 +5,7 @@ title: "SYN Flooding"
 
 # SYN Flooding
 
-TCP SYN Flooding is a type of Denial of Service (DoS) attack in which an attacker sends a large number of SYN packets to a target system in an attempt to exhaust the system’s resources and prevent legitimate users from accessing the system.
+TCP SYN Flooding is a type of Denial of Service (DoS) attack in which an attacker sends a large number of SYN packets to a target system in an attempt to exhaust the system’s memory and prevent legitimate users from accessing the system.
 
 ## Three Way Handshake
 
@@ -32,11 +32,11 @@ Spoofed IPs are used so ACK packets sent in reply to the SYN packets do not get 
 
 ### SYN cookies
 
-This strategy involves the creation of a cookie by the server. In order to avoid the risk of dropping connections when the backlog has been filled, the server responds to each connection request with a SYN-ACK packet but then drops the SYN request from the backlog, removing the request from memory and leaving the port open and ready to make a new connection.
+In order to avoid the risk of dropping connections when the backlog has been filled, the server responds to each connection request with a SYN-ACK packet along with a SYN Cookie containing the critical state information about the connection but then drops the SYN request from the backlog, removing the request from memory and leaving the port open and ready to make a new connection.
 
-If the connection is a legitimate request, and a final ACK packet is sent from the client machine back to the server, the server will then reconstruct (with some limitations) the SYN backlog queue entry.
+If the connection is a legitimate request, and a final ACK packet is sent from the client machine back to the server containing the SYN cookie, the server will then reconstruct (with some limitations) the SYN backlog queue entry.
 
-While this mitigation effort does lose some information about the TCP connection, it is better than allowing denial-of-service to occur to legitimate users as a result of an attack.
+However, there is not easy way to add the syn-cookie to the ack and so the state information needs to be encoded as a Sequence Number.
 
 ### Recycling the Oldest Half-Open TCP connection
 
