@@ -11,6 +11,12 @@ The motivation for using firewalls as a whitelist approach is to enhance the sec
 
 With a whitelist approach, traffic is only allowed based on pre-defined rules, which can greatly reduce the risk of unauthorized access, data breaches, and other security threats.
 
+{{< hint info >}}
+
+The whitelisting approach is also knows as "Default Deny"
+
+{{< /hint >}}
+
 ## Packet Filtering
 
 A firewall can be configured to act as a packet filter, which means that it examines each packet of data that passes through the firewall and decides whether to allow or block it based on a set of predefined rules.
