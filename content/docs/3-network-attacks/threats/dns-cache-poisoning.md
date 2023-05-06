@@ -84,8 +84,12 @@ The Kaminsky attacks work by preventing the client from caching the legit respon
 
 For example, make the victim make multiple requests to hostnames like `www.rand1.google.com` and `www.rand2.google.com` and so on. This will give the attacker plenty of time to guess the identification number.
 
+Furthermore the attack targets the additional sections instead of the answer section.
+
 ### Prevention
 
 For an DNS response to be accepted, the response must have the correct identification number but also the correct source and destination port numbers.
 
 We can increase the entropy of the systems by **randomizing the port numbers** thus making it harder for the attacker to guess the correct value of the fields.
+
+Now instead of 2^16 possible values, we have 2^32 possible values.
