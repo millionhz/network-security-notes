@@ -1,4 +1,3 @@
-baseURL = "https://millionhz.github.io/network-security-notes"
 languageCode = "en-us"
 title = "Network Security"
 theme = 'hugo-book'
