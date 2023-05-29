@@ -1,6 +1,7 @@
 ---
 weight: 20
 title: "Network Attacks"
+bookCollapseSection: true
 ---
 # Types Network Attacks
 

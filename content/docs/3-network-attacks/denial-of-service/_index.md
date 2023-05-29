@@ -1,6 +1,7 @@
 ---
 weight: 25
 title: "Denial of Service"
+bookCollapseSection: true
 ---
 
 # Denial of Service

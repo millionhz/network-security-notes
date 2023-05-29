@@ -1,7 +1,7 @@
 ---
 weight: 50
 title: "Cryptography"
-bookCollapseSection: true
+bookCollapseSection: false
 ---
 
 # Cryptography

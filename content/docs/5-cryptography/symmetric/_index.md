@@ -1,6 +1,7 @@
 ---
 weight: 30
 title: "Symmetric Key Cryptography"
+bookCollapseSection: true
 ---
 
 # Substitution Ciphers

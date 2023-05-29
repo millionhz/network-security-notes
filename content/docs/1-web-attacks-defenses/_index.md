@@ -1,7 +1,7 @@
 ---
 weight: 10
 title: "Web Attacks & Defenses"
-bookCollapseSection: true
+bookCollapseSection: false
 ---
 
 ## Resources
