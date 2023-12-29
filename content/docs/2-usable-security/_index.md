@@ -2,6 +2,7 @@
 weight: 20
 title: "Usable Security"
 bookCollapseSection: false
+bookFlatSection: true
 ---
 
 # What is usable security?
