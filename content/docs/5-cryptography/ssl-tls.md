@@ -7,7 +7,7 @@ title: "SSL/TLS"
 
 SSL/TLS provides a layer that sits on top of our transport layer and provides end-to-end security.
 
-## TLS Handshake
+## TLS Handshake via RSA
 
 1. The browser initiates a TCP connection to the server.
 
