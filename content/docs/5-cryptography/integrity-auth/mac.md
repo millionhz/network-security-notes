@@ -6,7 +6,7 @@ title: "MACs"
 
 # Message Authentication Codes
 
-**Provides integrity not confidentiality.**
+Provides integrity and authenticity via **Symmetric Key Cryptography**.
 
 We want to make sure that the data was not tempered with during transmission.
 

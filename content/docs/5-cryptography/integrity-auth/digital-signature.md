@@ -5,7 +5,7 @@ title: "Digital Signatures"
 
 # Digital (RSA) Signatures
 
-Provides integrity and authenticity.
+Provides integrity and authenticity via **Asymmetric Key Cryptography**.
 
 A digital signature is a way to verify the authenticity of an electronic document, email, or message.
 
