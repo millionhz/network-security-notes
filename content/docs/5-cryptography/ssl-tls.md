@@ -21,7 +21,7 @@ SSL/TLS provides a layer that sits on top of our transport layer and provides en
 
 6. The browser generates a long secret key called the "Premaster Secret" (PS) and encrypts it using the server's public key.
 
-7. The server uses its private key to decrypt the Premaster Secret and then uses it, along with the random numbers RB and RS, to derive a set of symmetric encryption and MAC keys.
+7. The server uses its private key to decrypt the Premaster Secret. The server and the client use the Premaster Secret along with the random numbers RB and RS, to derive a set of symmetric encryption and MAC keys.
 
 8. The browser and server exchange MACs computed over the entire dialogue up to this point. If the MACs are good, the browser continues with the connection.
 
