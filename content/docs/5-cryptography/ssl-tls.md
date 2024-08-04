@@ -7,6 +7,8 @@ title: "SSL/TLS"
 
 SSL/TLS provides a layer that sits on top of our transport layer and provides end-to-end security.
 
+- [What happens in a TLS handshake - Cloudflare](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/)
+
 ## TLS Handshake via RSA
 
 1. The browser initiates a TCP connection to the server.
@@ -19,7 +21,7 @@ SSL/TLS provides a layer that sits on top of our transport layer and provides en
 
 5. The browser verifies the certificate to make sure it was issued by a trusted certificate authority and that it is valid for the domain it is connecting to.
 
-6. The browser generates a long secret key called the "Premaster Secret" (PS) and encrypts it using the server's public key.
+6. The **browser** generates a long secret key called the "Premaster Secret" (PS) and encrypts it using the server's public key.
 
 7. The server uses its private key to decrypt the Premaster Secret. The server and the client use the Premaster Secret along with the random numbers RB and RS, to derive a set of symmetric encryption and MAC keys.
 
@@ -47,8 +49,12 @@ Messages are also numbered to prevent replay attacks.
 
 5. The server also computes PS using its own random number a and the browser's public parameters.
 
-6. From the shared secret PS, the random number RB, and the server's random number RS, the browser and server derive symmetric encryption and MAC keys (CB, CS, IB, IS) just like in the previous example.
+6. From the shared secret PS, the random number RB, and the server's random number RS, the browser and server derive symmetric encryption and MAC keys just like in the previous example. (*Note that here Diffe Hellman is only used for communicating the PS which is then used along side the client and server random number to derive session keys*)
 
 7. The browser and server exchange MACs computed over the entire dialogue up to this point. If the MACs are good, the browser continues with the connection.
 
 8. All subsequent communication between the browser and server is encrypted using the agreed-upon symmetric encryption keys and MACs. Messages are also numbered to prevent replay attacks.
+
+## Premaster Secret and Random Numbers
+
+[Why using the premaster secret directly would be vulnerable to replay attack?](https://security.stackexchange.com/questions/218491/why-using-the-premaster-secret-directly-would-be-vulnerable-to-replay-attack)
