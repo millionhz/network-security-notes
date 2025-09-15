@@ -11,3 +11,7 @@ enableGitInfo = true
   BookTheme = 'auto'
   BookRepo = 'https://github.com/millionhz/network-security-notes'
   BookEditPath = 'edit/main'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
