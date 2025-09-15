@@ -27,8 +27,8 @@ Spoofing without eavesdropping is called *blind-spoofing*
 
 ## Physical/Link - Layer 1/2 Attacks
 
-- [WPA-2 Eavesdropping]({{< relref "/wpa2-eavesdropping.md" >}})
-- [DHCP Spoofing]({{< relref "/dhcp-spoofing.md" >}})
+- [WPA-2 Eavesdropping]({{< relref "./wpa2-eavesdropping.md" >}})
+- [DHCP Spoofing]({{< relref "./dhcp-spoofing.md" >}})
 - ARP Poisoning
 
 ## Network/IP Layer - Layer 3 Attacks
@@ -38,10 +38,10 @@ Spoofing without eavesdropping is called *blind-spoofing*
 
 ## Transport/TCP Layer - Layer 4 Attacks
 
-- [RST Injection]({{< relref "/rst-injection.md" >}})
-- [TCP Spoofing/Session Hijacking]({{< relref "/tcp-spoofing.md" >}})
-- [SYN Flooding]({{< relref "/syn-flooding.md" >}})
+- [RST Injection]({{< relref "./rst-injection.md" >}})
+- [TCP Spoofing/Session Hijacking]({{< relref "./tcp-spoofing.md" >}})
+- [SYN Flooding]({{< relref "../denial-of-service/syn-flooding.md" >}})
 
 ## DNS Attacks
 
-- [DNS Cache Poisoning]({{< relref "/dns-cache-poisoning.md" >}})
+- [DNS Cache Poisoning]({{< relref "./dns-cache-poisoning.md" >}})
